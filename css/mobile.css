@@ -1,0 +1,41 @@
+@media only screen and (max-width: 700px) {
+  .nar-bar {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    gap: 8px;
+    margin-left: 50%;
+    transform: translate(-25%);
+  }
+
+  #about > .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  #job-info > .container {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-container {
+    display: block;
+  }
+  .cert {
+    border-bottom: 1px solid #adb5bd;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 32px;
+  }
+  .banner-name {
+    font-size: 24px;
+  }
+  .job {
+    font-size: 18px;
+  }
+}
